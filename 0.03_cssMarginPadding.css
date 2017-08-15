@@ -1,0 +1,13 @@
+.customDiv {
+	padding: 50px 25px 100px;
+}
+.customW{
+	width: 45%;
+	float: left;
+	display: inline;
+}
+#div3{
+	float:right;
+	width: 45%;
+	display: inline;
+}
