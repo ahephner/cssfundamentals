@@ -1,0 +1,38 @@
+p{
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+}
+
+.moveRight{
+  background-color: blue;
+  transform: translatex(100px);
+}
+
+.moveDown{
+  background-color: blue;
+  transform: translatey(100px);
+}
+
+p:hover {
+  transform: translate(30px, 30px);
+}
+h1{
+  background-color: blue;
+  border: 1px solid black;
+}
+.transformed:hover {
+  color: red;
+  transform: scalex(.5);
+  transform-origin: bottom right; 
+}
+
+.rotate {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+.rotate:hover {
+  transform: rotate(45deg);
+}
